@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.html{
+    font-size: 62.5%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header{
+    height: 100vh;
+    background-image: url('./img/hero.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header_navbar-container{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(223, 66, 12);
+}
+.header_logo img{
+    width: 100%;
+    height: 70px;
+    padding-left: 10px;
+}
+.bar-btn{
+    font-size: 1.8rem;
+    color: #Ffff;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.header_nav{
+    position: fixed;
+    width: 100%;
+    height: 0;
+    top: 100px;
+    background: rgba(0, 0, 0, .95);
+    text-align: center;
+    transition: all .5s;
+}
+.header_nav li{
+    list-style: none;
+    display: none;
+    line-height: 30px;
+    margin: 50px 0;
+    transition: all .5s;
+
+}
+.header_nav li a{
+    text-decoration: none;
+    color: #ffff;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.header_nav li a.active, .header_nav li a:hover{
+    color: rgb(223, 66, 12);
+    transition: .3s;
+}
+#check{
+    display: none;
+}
+#check:checked ~ .header_nav{
+    height: 100vh;
+}
+#check:checked ~ .header_nav li{
+    display: block;
+}
