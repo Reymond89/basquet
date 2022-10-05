@@ -8,7 +8,7 @@ body{
     margin: 0 auto;
     min-width: 320px;
 }
-.html{
+html{
     font-size: 62.5%;
     font-family: 'Montserrat', sans-serif;
     
@@ -101,8 +101,22 @@ body{
     display: grid;
     justify-content: center;
     justify-items: center;
-    
+    animation: left-in 0.5s ease-in forwards;
+    animation-delay: .3s;
+    opacity: 0;
+
 }
+@keyframes left-in {
+    0%{
+        transform: translateX(-150px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0px);
+        opacity: 2;
+    }
+}
+    
 
 
 .banner_text h3{
@@ -235,6 +249,17 @@ body{
     display: flex;
     align-items: center;
     height: 400px;
+    animation: fade-in 0.5s ease-in forwards;
+    animation-delay: 1s;
+    opacity: 0;
+}
+@keyframes fade-in{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 2;
+    }
 }
 
 
@@ -387,6 +412,9 @@ body{
     line-height: 3rem;
 }
 
+/* Footer */
+
+
 
 
 
@@ -417,7 +445,7 @@ body{
     transition: none;
 }
 .header_nav li a{
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: bold;
     
     
@@ -445,9 +473,10 @@ body{
     display: grid;
     justify-content: center;
     justify-items: start;
+
 }  
 .section_banner h1{
-    font-size: 3rem;
+    font-size: 2.8rem;
     
 }
 .section_banner h3{
@@ -564,7 +593,7 @@ body{
     margin-right: 90px;
 }
 .section_banner h1{
-    font-size: 4rem;
+    font-size: 3.8rem;
 }
 .section_banner{
     overflow: hidden;
