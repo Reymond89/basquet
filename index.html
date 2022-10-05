@@ -26,32 +26,34 @@
                 <i class="fa-solid fa-bars"></i>
             </label>
             <ul class="header_nav">
-                <li><a href="#">Sobre mi</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Galeria</a></li>
+                <li><a href="#main_container">Sobre mi</a></li>
+                <li><a href="#galery">Galeria</a></li>
+                <li><a href="#champion_container">Participaciones</a></li>
                 <li><a class="border" href="#">Sigueme</a></li>
             </ul>
-        </nav>    
+        </nav>
     </header>            
         
     <section class="section_banner">
         <div class="banner_text">
             <h3>Hola! soy</h3>
-            <h1>Santisgo <span class="edit"> Martin’s </span><br>R. R.</h1>
+            <h1>Santiago <span class="edit"> Martin’s </span><br>R. R.</h1>
             <!-- <p>Esta es mi historia</p> -->
-            <button class="button-82-pushable" role="button">
-                <span class="button-82-shadow"></span>
-                <span class="button-82-edge"></span>
-                <span class="button-82-front text">
-                  Perfil
-                </span>
-              </button>
+            <a href="#main_container">
+                <button class="button-82-pushable" role="button" >
+                    <span class="button-82-shadow"></span>
+                    <span class="button-82-edge"></span>
+                    <span class="button-82-front text">
+                    Perfil
+                    </span>
+                </button>
+            </a>
         </div>
         <picture class="header_picture">
             <img class="principal" src="./img/principal.png" alt="">
         </picture>
     </section>
-    <main class="main_container">
+    <main class="main_container" id="main_container">
         <h2 class="main_title">Sobre mi</h2>
         <section class="main_contain-description">
             <div class="main_text">
@@ -62,7 +64,7 @@
             </picture>
         </section>
         
-        <section class="galery">
+        <section class="galery" id="galery">
             <h2 class="galery_title">Galeria</h2>
             <!-- Slider main container -->
             <div class="swiper">
@@ -72,15 +74,15 @@
                 
                 <div class="swiper-slide"><img src="./img/galeria2.jpg"></div>
                 <div class="swiper-slide"><img src="./img/galeria3.jpg"></div>
-                <div class="swiper-slide"><img src="./img/galeria4.jpg"></div>
+                <!-- <div class="swiper-slide"><img src="./img/galeria4.jpg"></div> -->
                 <div class="swiper-slide"><img src="./img/galeria5.jpg"></div>
                 <div class="swiper-slide"><img src="./img/galeria6.jpg"></div>
-                <div class="swiper-slide"><img src="./img/galeria7.jpg"></div>
+                <!-- <div class="swiper-slide"><img src="./img/galeria7.jpg"></div> -->
                 <div class="swiper-slide"><img src="./img/galeria8.jpg"></div>
-                <div class="swiper-slide"><img src="./img/galeria9.jpg"></div>
+                <!-- <div class="swiper-slide"><img src="./img/galeria9.jpg"></div> -->
                 
 
-                ...
+                
                 </div>
                 <!-- If we need pagination -->
                 <div class="swiper-pagination"></div>
@@ -91,6 +93,20 @@
             
                 <!-- If we need scrollbar -->
                 <div class="swiper-scrollbar"></div>
+            </div>
+        </section>
+        
+        <section>
+            <div class="champion_container background" id="champion_container">
+                <div class="champion_title">
+                    <h2>Participaciones</h2>
+                </div>
+                <div class="champion_text">
+                    <p>Campeonato regional</p>
+                    <p>Campeonato Estatal</p>
+                    <p>Campeonato Nacional</p>
+                
+                </div>
             </div>
         </section>
         
