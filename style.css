@@ -32,7 +32,7 @@ html{
     padding-left: 40px;
 }
 .bar-btn{
-    font-size: 1.8rem;
+    font-size: 3rem;
     color: #Ffff;
     cursor: pointer;
     margin-right: 40px;
@@ -58,9 +58,9 @@ html{
 .header_nav li a{
     text-decoration: none;
     color: #ffff;
-    font-size: 1.3rem;
+    font-size: 2rem;
     text-transform: uppercase;
-    font-weight: 500;
+    font-weight: 700;
 }
 .header_nav li a.active, .header_nav li a:hover{
     color: rgb(223, 66, 12);
@@ -125,15 +125,18 @@ html{
 }
 .banner_text h1{
     margin-top: 10px;
-    font-size: 1.7rem;
+    font-size: 2.4rem;
     font-weight: bold;
     margin-bottom: 10px;
 }
+
 .banner_text .edit{
     color: rgb(29 66 138);
 }
 .banner_text p{
-    font-size: 1.3rem;
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-bottom: 20px;
 }
 
 /* boton */
@@ -178,7 +181,7 @@ html{
   background: linear-gradient(
     to left,
     hsl(340deg 100% 16%) 0%,
-    hsl(340deg 100% 32%) 8%,
+    rgb(194, 156, 163) 8%,
     hsl(340deg 100% 32%) 92%,
     hsl(340deg 100% 16%) 100%
   );
@@ -190,7 +193,7 @@ html{
   padding: 10px 35px;
   text-align: center;
   border-radius: 12px;
-  font-size: 1.1rem;
+  font-size: 2rem;
   color: white;
   background: rgb(240, 60, 0);
   will-change: transform;
@@ -203,7 +206,7 @@ html{
 
 @media (min-width: 768px) {
   .button-82-front {
-    font-size: 1.7rem;
+    font-size: 2rem;
     padding: 18px 58px;
    
   }
@@ -283,7 +286,7 @@ html{
 
 .main_title{
     margin-top: 30px;
-    font-size: 2rem;
+    font-size: 2.4rem;
     color: #1d428a;
     text-align: center;
     margin-bottom: 30px;
@@ -301,7 +304,7 @@ html{
 
 }
 .main_text p{
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     color: black;
     margin-bottom: 30px;
     padding: 10px;
@@ -324,7 +327,7 @@ html{
 
 .galery .galery_title{
     margin-top: 60px;
-    font-size: 2rem;
+    font-size: 2.4rem;
     color: #1d428a;
     text-align: center;
     margin-bottom: 30px;
@@ -445,7 +448,7 @@ html{
     transition: none;
 }
 .header_nav li a{
-    font-size: 1rem;
+    font-size: 1.3rem;
     font-weight: bold;
     
     
@@ -468,15 +471,21 @@ html{
     overflow: hidden;
 
 }
+.banner_text p{
+    font-size: 2.2rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
 .banner_text{
     text-align: initial;
     display: grid;
     justify-content: center;
-    justify-items: start;
+    justify-items: center;
 
 }  
 .section_banner h1{
-    font-size: 2.8rem;
+    font-size: 3rem;
+    text-align: center;
     
 }
 .section_banner h3{
@@ -526,7 +535,7 @@ html{
 
     }
     .main_text p{
-        font-size: 1.5rem;
+        font-size: 1.7rem;
         color: black;
         
     }
@@ -593,7 +602,10 @@ html{
     margin-right: 90px;
 }
 .section_banner h1{
-    font-size: 3.8rem;
+    font-size: 4.4rem;
+}
+.banner_text p{
+    font-size: 2.7;
 }
 .section_banner{
     overflow: hidden;
