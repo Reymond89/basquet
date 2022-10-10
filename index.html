@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>basquet</title>
+    <title>Santiago</title>
     <link rel="stylesheet" href="./style.css" />
     <script
       src="https://kit.fontawesome.com/eb8ab39ed3.js"
@@ -149,6 +149,14 @@
       </footer>
     </main>
 
+    <script>
+      const checkBox  = document.querySelector('#check');
+      // Crea un Array con los li
+      const lis = Array.from(document.querySelector('.header_nav').getElementsByTagName('li')) 
+      // Recorre cada li y le agrega el envento click que desactiva el checkBox
+      lis.forEach(li => li.addEventListener('click', () =>  checkBox.checked = false))
+    </script>
+
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script>
       const swiper = new Swiper(".swiper", {
@@ -172,6 +180,7 @@
           el: ".swiper-scrollbar",
         },
       });
+
     </script>
 
     <script type="text/javascript" src="sj/script.js" ></script>
