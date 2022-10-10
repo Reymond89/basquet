@@ -36,7 +36,7 @@
           <li><a href="#main_container">Sobre mi</a></li>
           <li><a href="#swiper">Galeria</a></li>
           <li><a href="#champion_container">Participaciones</a></li>
-          <li><a class="border" href="#">Sigueme</a></li>
+          <li><a class="border" href="#footer">Sigueme</a></li>
         </ul>
       </nav>
     </header>
@@ -44,8 +44,8 @@
     <section class="section_banner">
       <div class="banner_text">
         
-        <h1>Santiago <span class="edit"> Martin’s </span><br />R. R.</h1>
-        <p>conoce mi historia</p>
+        <h1>Mi nombre es <span class="edit input"></span><br />R. R.</h1>
+        <!-- <p>conoce mi historia</p> -->
         <!-- <p>Esta es mi historia</p> -->
         <a href="#main_container">
           <button class="button-82-pushable" role="button">
@@ -116,11 +116,36 @@
           </div>
         </div>
       </section>
-      <footer>
-        <div class="">
-            
+      <footer id="footer">
+        <div class="footer-container">
+          
+          <div class="footer-logo">
+            <figure>
+              <a href="#">
+                <img src="./img/logo.jpg" alt="logo nba">
+              </a>
+            </figure>
+          </div>
+          <div class="footer-text">
+            <h2>Gracias por visitarme</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, quis sed quia a ea laborum! Hic autem aperiam eveniet, amet aut perferendis in et necessitatibus optio porro consequatur at voluptates!
+            </p>
+          </div>
+          <div class="footer-social">
+              <h2>Sigueme</h2>
+              <div class="footer-icons">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-youtube"></a>
+              </div>
+          </div>
+          
         </div>
-
+        <div class="footer-finish">
+            <small>&copy; 2022 <b>Santiago</b> - Todos los Derechos Reservados. </small>
+        </div>
       </footer>
     </main>
 
@@ -146,6 +171,17 @@
         scrollbar: {
           el: ".swiper-scrollbar",
         },
+      });
+    </script>
+
+    <script type="text/javascript" src="sj/script.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+      var type = new Typed(".input", {
+        strings:["Santiago Martin’s Ramos", "Juego al Basquetbol", "Mi sueño ser Profesional","Esta es mi historia" ],
+        typeSpeed: 70,
+        backSpeed: 60,
+        loop:true
       });
     </script>
   </body>

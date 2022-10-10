@@ -320,9 +320,9 @@ html{
 /* galery */
 .galery{
     width: 100%;   
-    height: 600px;
-    display: flex;
-    flex-direction: column;
+    height: 100vh;
+
+    
 }
 
 .galery .galery_title{
@@ -417,10 +417,79 @@ html{
 
 /* Footer */
 
-
-
-
-
+footer{
+    width: 100%;
+    background-color: #1d428a;
+}
+.footer-container{
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px;
+    gap: 36px;
+    text-align: center;
+    padding: 20px 40px;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+}
+.footer-container .footer-logo figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    place-content: center;
+}
+.footer-logo figure a img{
+    width: 40px;
+}
+.footer-text{
+    
+    text-align: center;
+} 
+.footer-text h2{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #fff;
+    /* text-align: initial; */
+    margin-bottom: 20px;
+}
+.footer-text p{
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: #fff;
+    line-height: 1.8rem;
+}
+.footer-social h2{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #fff;
+}
+.footer-icons a{
+    font-size: 3rem;
+    color: #Ffff;
+    margin-right: 10px;
+    margin-top: 20px;
+    text-decoration: none;
+    transition: all 300ms ease;
+    padding: 10px;
+    background-color: #ff5722;
+}
+.footer-icons a:hover{
+    cursor: pointer;
+    color: rgb(53, 65, 171);
+}
+.footer-finish{
+    width: 100%;
+    height: 40px;
+    font-size: 1.5rem;
+    color: #Ffff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #ff5722;
+}
 
 /* responsive header desktop */
 
@@ -593,6 +662,37 @@ html{
         font-size: 2rem;
         line-height: 4rem;
     }
+    /* footer */
+    .footer-container{
+        width: 100%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        padding: 60px 0;
+        align-items: center;
+        justify-items: center;
+    }
+    .footer-text{
+        text-align: initial;
+    }
+    .footer-text h2{
+        font-size: 2rem;
+        
+    }
+    .footer-text p{
+        font-size: 1.3rem;
+       
+    }
+    .footer-social h2{
+        font-size: 2rem;
+    
+    }
+    .footer-icons a{
+        font-size: 3rem;
+       
+    }
+
 }
 
 
@@ -701,6 +801,28 @@ html{
     .champion_text p{
         font-size: 2.5rem;
         line-height: 4rem;
+    }
+    /* footer */
+    .footer-text{
+    
+        text-align: initial;
+    }
+    .footer-text h2{
+        font-size: 2.5rem;
+        
+    }
+    .footer-text p{
+        font-size: 1.6rem;
+        line-height: 2rem;
+       
+    }
+    .footer-social h2{
+        font-size: 2.5rem;
+    
+    }
+    .footer-icons a{
+        font-size: 4rem;
+       
     }
 }
 
