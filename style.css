@@ -371,6 +371,32 @@ html{
     object-fit: cover;
   }
 
+/* video */
+.video{
+    background-image: url('img/video.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 1300px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.video-container{
+  
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+
 /* champion */
 
 .champion_container{
