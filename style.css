@@ -340,8 +340,9 @@ html{
     margin-bottom: 20px;   
 }
 .main_text p{
-    font-size: 1rem;
-    color: black;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #3e4040;
     margin-bottom: 30px;
     padding: 10px;
     margin: 0 10px;
@@ -525,9 +526,10 @@ footer{
 }
 .footer-text p{
     font-size: 1.2rem;
-    font-weight: 300;
+    font-weight: 500;
     color: #fff;
     line-height: 1.8rem;
+    letter-spacing: 0.5px;
 }
 .footer-social h2{
     font-size: 1.5rem;
@@ -656,7 +658,7 @@ footer{
     align-items: center;
     justify-items: center;
     justify-content: center;
-    margin: 0 20px;
+    /* margin: 0 20px; */
     }
     .main_title{
         font-size: 2rem;
@@ -678,7 +680,8 @@ footer{
     }
     .main_text p{
         font-size: 1.7rem;
-        color: black;
+        color: #181a1a;
+        font-weight: 500;
         
     }
     .main_img{
